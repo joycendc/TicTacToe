@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="above">
+        
+        <select name="mode" id="mode">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="impossible">Impossible</option>
+        </select>
+        <div class="score">
+            <div>
+                <h3>Player :  </h3>
+                <h3 class="human">0</h3>
+            </div>
+            <div>
+                <h3>AI :  </h3>
+                <h3 class="ai">0</h3>
+             </div>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+        </tr>
+    </table>
+    <div class="end">
+        <div class="text"></div>
+        <button class="restart" onclick="startGame()">Restart</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

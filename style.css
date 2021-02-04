@@ -1,0 +1,88 @@
+.above {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.score div {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    margin-left: 10px;
+}
+.restart {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    padding: 5px 10px 5px 10px;
+}
+
+.restart:hover{
+    
+    color: black;
+    background-color: white;
+    border: 2px solid lightgreen;
+    padding: 5px 10px 5px 10px;
+}
+td {
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 80px;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.end {
+    display: none;
+    width: 200px;
+    top: 140px;
+    background-color: white ;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    font-size: 2em;
+}
